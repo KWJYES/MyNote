@@ -89,7 +89,7 @@ cd 到bin目录后,输入命令mysqld --initialize --console
 mysqld --initialize --console
 ```
 
-![MsSQL下载_12 - 副本](image/MsSQL下载_12 - 副本.png)
+![MsSQL下载_12 - 副本](image/MsSQL下载_121.png)
 
 运行结束后记住**root@localhost:后的密码**后面会用
 
@@ -99,7 +99,7 @@ mysqld --initialize --console
 mysqld --install
 ```
 
-![MsSQL下载_12 - 副本 (5)](image/MsSQL下载_12 - 副本 (5).png)
+![MsSQL下载_12 - 副本 (5)](image/MsSQL下载_125.png)
 
 看到successfully表示成功了
 
@@ -109,7 +109,7 @@ mysqld --install
 net start mysql
 ```
 
-![MsSQL下载_12 - 副本 (4)](image/MsSQL下载_12 - 副本 (4).png)
+![MsSQL下载_12 - 副本 (4)](image/MsSQL下载_124.png)
 
 然后执行mysql -uroot -p  并输入刚刚**root@localhost:后的密码**登陆数据库
 
@@ -117,7 +117,7 @@ net start mysql
 mysql -uroot -p
 ```
 
-![MsSQL下载_12 - 副本 (3)](image/MsSQL下载_12 - 副本 (3).png)
+![MsSQL下载_12 - 副本 (3)](image/MsSQL下载_123.png)
 
 最后再修改密码
 
