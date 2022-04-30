@@ -54,11 +54,11 @@ public class Main {
 
 Thread实现Runnable接口
 
-![](E:\Study\MyNote\Java\image\Thread1.png)
+![](image/Thread1.png)
 
 run()方法是Runnable接口的方法
 
-![Thread2](E:\Study\MyNote\Java\image\Thread2.png)
+![Thread2](image/Thread2.png)
 
 **所以，无论以哪种方式开启子线程都可以重写run()方法现实子线程逻辑**
 
@@ -68,11 +68,11 @@ run()方法是Runnable接口的方法
 
 调用**Thread类**的**start()**方法后，Thread会调用**start0()**方法，**start0()**方法是真正开启子线程的方法
 
-![Thread3](E:\Study\MyNote\Java\image\Thread3.png)
+![Thread3](image/Thread3.png)
 
 至于**start0()**是本地方法，是JVM调用，底层是C/C++去实现
 
-![Thread4](E:\Study\MyNote\Java\image\Thread4.png)
+![Thread4](image/Thread4.png)
 
 start()方法调用start0()方法后，该线程并不一定会立马款行，只是将线程变成了可运行状态。具体什么时候执行，取决于CPU，由CPU统一调度
 
@@ -90,13 +90,13 @@ start()方法调用start0()方法后，该线程并不一定会立马款行，�
 
 **start()调用start0(),start0()会调用Thread的run()方法，在Thread的run()方法中调用传入Runnable接口对象的run方法**
 
-![Thread5](E:\Study\MyNote\Java\image\Thread5.png)
+![Thread5](image/Thread5.png)
 
 # 四、Thread的生命周期
 
-## 官方文档解释![Thread7](E:\Study\MyNote\Java\image\Thread7.png)
+## 官方文档解释![Thread7](image/Thread7.png)
 
-## 图解：![Thread6](E:\Study\MyNote\Java\image\Thread6.png)
+## 图解：![Thread6](image/Thread6.png)
 
 # 五、锁
 
