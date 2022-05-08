@@ -4,15 +4,15 @@
 
 如果没有Spring Assistant选项，则去插件中下载
 
-![](E:\Study\MyNote\SpringBoot\image\20220507192809.png)
+![](image/20220507192809.png)
 
-![](E:\Study\MyNote\SpringBoot\image\20220507192959.png)
+![](image/20220507192959.png)
 
-![](E:\Study\MyNote\SpringBoot\image\QQ图片20220507193038.png)
+![](image/QQ图片20220507193038.png)
 
 # 二、建包
 
-![](E:\Study\MyNote\SpringBoot\image\QQ图片20220507193144.png)
+![](image/QQ图片20220507193144.png)
 
 主入口，注意注解
 
@@ -49,11 +49,11 @@ public class HelloController {
 
 运行项目后tomcat服务会启动,tomcat服务是默认端口号是8080
 
-![](E:\Study\MyNote\SpringBoot\image\QQ图片20220507193858.png)
+![](image/QQ图片20220507193858.png)
 
 此时可以在**浏览器**访问刚刚写好的接口:http://localhost:8080/hello/hello
 
-![](E:\Study\MyNote\SpringBoot\image\QQ图片20220507193933.png)
+![](image/QQ图片20220507193933.png)
 
 ### 三、自定义设置
 
@@ -66,11 +66,11 @@ public class HelloController {
 server.port=8081
 ```
 
-![](E:\Study\MyNote\SpringBoot\image\QQ图片20220507194208.png)
+![](image/QQ图片20220507194208.png)
 
 ## 修改SpringBoot banner样式
 
-![](E:\Study\MyNote\SpringBoot\image\QQ图片20220507194606.png)
+![](image/QQ图片20220507194606.png)
 
 找一个字符艺术字体网站：https://www.bootschool.net/ascii-art/search
 
@@ -78,13 +78,13 @@ server.port=8081
 
 在目录的resources中新建一个banner.txt
 
-![](E:\Study\MyNote\SpringBoot\image\QQ图片20220507195329.png)
+![](image/QQ图片20220507195329.png)
 
 把字符粘贴进去
 
-![](E:\Study\MyNote\SpringBoot\image\QQ图片20220507195355.png)
+![](image/QQ图片20220507195355.png)
 
 然后运行项目就好了！
 
-![](E:\Study\MyNote\SpringBoot\image\QQ图片20220507195435.png)
+![](image/QQ图片20220507195435.png)
 
