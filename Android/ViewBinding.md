@@ -99,6 +99,7 @@ abstract public class BaseActivity<VB extends ViewBinding> extends AppCompatActi
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //  implementation 'com.dylanc:viewbinding-ktx:1.0.0'要导这个依赖
         mBinding= ViewBindingUtil.inflateWithGeneric(this,getLayoutInflater());
         setContentView(mBinding.getRoot());
     }
