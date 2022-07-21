@@ -20,7 +20,7 @@ android{
 }
 ```
 
-生成绑定类时忽略某个布局文件，请将 `tools:viewBindingIgnore="true"` 属性添加到相应布局文件的根视图中：
+生成绑定类时***忽略***某个布局文件，请将 `tools:viewBindingIgnore="true"` 属性添加到相应布局文件的根视图中：
 ```xml
 <LinearLayout
               ...

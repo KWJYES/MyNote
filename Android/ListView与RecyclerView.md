@@ -56,6 +56,7 @@
 >/*recyclerView.setLayoutManager(new LinearLayoutManager(this));*/
 >LinearLayoutManager layoutManager = new LinearLayoutManager(this);
 >recyclerView.setLayoutManager(layoutManager);
+>
 >FruitAdapter adapter = new FruitAdapter(list);
 >recyclerView.setAdapter(adapter);
 >```
@@ -99,6 +100,10 @@ layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);//默认是VERTICAL
      new StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.VERTICAL);
 							//第一个参数为行（列）数 第二个参数为滚动方式
 ```
+
+### getLayoutPosition 和 getAdapterPosition的区别
+
+[RecyclerView：getLayoutPosition 和 getAdapterPosition - 简书 (jianshu.com)](https://www.jianshu.com/p/83506d1d1ec8)
 
 
 
